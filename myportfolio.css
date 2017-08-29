@@ -93,7 +93,7 @@ margin-bottom: 0;
 }
 #websites-examples {
 /* background-image: url('site/img/hire-me2.jpg'); */
-background-color: #2893CB;
+background-color: lightgrey;
 }
 .website-examples__each {
     display: inline-block;
@@ -117,6 +117,27 @@ align-items: center;
 
 
 /* for mobile phones */
+@media (max-width: 480px) {
+.container {
+    padding:25px;
+}
+#skills p {
+    margin: 10%;
+}
+.text-between-slides {
+    margin: 7%;
+}
+.header-margin {
+    padding-top: 0;
+}
+.website-examples__each {
+    width:100%;
+    margin-bottom: 0;
+    border: none;
+    margin: 0 0 18px 0;
+}
+}
+
 @media only screen and (max-device-width: 1024px) {
     .parallax {
         background-attachment: scroll;
