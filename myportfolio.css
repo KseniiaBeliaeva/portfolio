@@ -9,7 +9,7 @@ margin: 0;
 }
 .container {
   background-attachment: fixed;
-    min-height: 100%; 
+    /* min-height: 100%;  */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -131,7 +131,7 @@ align-items: center;
     margin: 10%;
 }
 #skills {
-    padding: 10%;
+    margin: 10%;
     line-height: 2;
 }
 .text-between-slides {
