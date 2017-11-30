@@ -98,8 +98,8 @@ background-color: white;
 }
 .website-examples__each {
     display: inline-block;
-    width: 556px;
-    height: 444.91px;
+    width: 88%;
+    /* height: 444.91px; */
     margin:5%;
     border-radius: 5px;
   box-shadow: 1px 1px 8px 0px;
@@ -122,22 +122,34 @@ align-items: center;
 /* for mobile phones */
 @media (max-width: 480px) {
 .container {
-    padding:25px;
+ padding: 5px;
+}
+.header {
+    margin: 3% 0;
 }
 #skills p {
     margin: 10%;
 }
+#skills {
+    padding: 10%;
+    line-height: 2;
+}
 .text-between-slides {
-    margin: 7%;
+    margin: 2%;
 }
 .header-margin {
     padding-top: 0;
 }
+#websites-examples {
+    padding: 5%;
+}
 .website-examples__each {
-    width:100%;
+    width:95%;
+    height: 95%;
     margin-bottom: 0;
     border: none;
     margin: 0 0 18px 0;
+    padding: 0;
 }
 }
 
